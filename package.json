@@ -1,0 +1,16 @@
+{
+  "name": "grocery-shop-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack Flipkart Grocery / Blinkit Style Web App with Customer Storefront & Admin Portal",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "server": "node server/src/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "node server/src/server.js"
+  },
+  "keywords": ["grocery", "ecommerce", "blinkit", "react", "express", "sqlite"],
+  "author": "Antigravity",
+  "license": "ISC"
+}
